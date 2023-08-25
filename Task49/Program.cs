@@ -39,7 +39,7 @@ void OutputMatrix(int[,] mtrx)
     }
 }
 
-void SquaredElemMatrixBothIndexEven(int[,] mtrx) // ReplaceEvenRowsColumnsSquare
+void SquaredElemMatrixBothIndexEven(int[,] mtrx)
 {
     for (int i = 0; i < mtrx.GetLength(0); i += 2)
     {
