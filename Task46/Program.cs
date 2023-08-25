@@ -36,6 +36,6 @@ void OutputMatrix(int[,] mtrx)
     }
 }
 
-// int[,] array2d = new int[3, 4] { { 1, 4, 8, 19 }, { 5, -2, 33, -2 }, { 77, 3, 8, 1 } };
+// int[,] matrix = new int[3, 4] { { 1, 4, 8, 19 }, { 5, -2, 33, -2 }, { 77, 3, 8, 1 } };
 int[,] matrix = CreateMatrixRandomInt(3, 4, -100, 100);
 OutputMatrix(matrix);
